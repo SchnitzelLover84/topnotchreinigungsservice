@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/topnotchreinigungsservice/static/css/main.cb47c448.css",
-    "main.js": "/topnotchreinigungsservice/static/js/main.1ac38004.js",
+    "main.css": "/topnotchreinigungsservice/static/css/main.28834b93.css",
+    "main.js": "/topnotchreinigungsservice/static/js/main.c5207a01.js",
     "static/js/453.29b3dac1.chunk.js": "/topnotchreinigungsservice/static/js/453.29b3dac1.chunk.js",
     "index.html": "/topnotchreinigungsservice/index.html",
-    "main.cb47c448.css.map": "/topnotchreinigungsservice/static/css/main.cb47c448.css.map",
-    "main.1ac38004.js.map": "/topnotchreinigungsservice/static/js/main.1ac38004.js.map",
+    "main.28834b93.css.map": "/topnotchreinigungsservice/static/css/main.28834b93.css.map",
+    "main.c5207a01.js.map": "/topnotchreinigungsservice/static/js/main.c5207a01.js.map",
     "453.29b3dac1.chunk.js.map": "/topnotchreinigungsservice/static/js/453.29b3dac1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb47c448.css",
-    "static/js/main.1ac38004.js"
+    "static/css/main.28834b93.css",
+    "static/js/main.c5207a01.js"
   ]
 }
