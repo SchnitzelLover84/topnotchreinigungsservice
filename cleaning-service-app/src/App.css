@@ -7,6 +7,35 @@ body {
   line-height: 1.6;
 }
 
+/* Footer styles - Force white text */
+footer {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+footer .text-muted {
+  color: white !important;
+}
+
+footer a {
+  color: white !important;
+}
+
+footer a:hover {
+  color: #667eea !important;
+}
+
+footer p {
+  color: white !important;
+}
+
+footer span {
+  color: white !important;
+}
+
+footer .text-white {
+  color: white !important;
+}
+
 /* Hero section background */
 .hero-section {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -224,11 +253,6 @@ section {
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-/* Footer styles */
-footer {
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
 }
 
 /* Utility classes */
