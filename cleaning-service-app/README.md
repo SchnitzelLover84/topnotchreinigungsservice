@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+# Top Notch Reinigungsservice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eine moderne React-Website für einen Reinigungsservice.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+```bash
+npm install
+```
 
-### `npm start`
+## Entwicklung
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Die App läuft dann unter [http://localhost:3000](http://localhost:3000).
 
-### `npm test`
+## Deployment auf GitHub Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Voraussetzungen
 
-### `npm run build`
+1. Das Repository muss auf GitHub gehostet werden
+2. Das Repository muss öffentlich sein oder du musst GitHub Pro haben
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Deployment-Schritte
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Repository auf GitHub erstellen:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - Erstelle ein neues Repository auf GitHub mit dem Namen `topnotchreinigungsservice`
+   - Stelle sicher, dass es öffentlich ist
 
-### `npm run eject`
+2. **Code zu GitHub pushen:**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/schnitzellover84/topnotchreinigungsservice.git
+   git push -u origin main
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Deployment ausführen:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```bash
+   npm run deploy
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. **GitHub Pages aktivieren:**
+   - Gehe zu deinem Repository auf GitHub
+   - Klicke auf "Settings"
+   - Scrolle runter zu "Pages"
+   - Unter "Source" wähle "Deploy from a branch"
+   - Wähle den Branch "gh-pages" aus
+   - Klicke "Save"
 
-## Learn More
+### Nach dem Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Die Website wird unter folgender URL verfügbar sein:
+**https://schnitzellover84.github.io/topnotchreinigungsservice**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Wichtige Hinweise
+
+- Nach jedem `npm run deploy` wird die Website automatisch aktualisiert
+- Es kann einige Minuten dauern, bis die Änderungen sichtbar sind
+- Stelle sicher, dass alle Pfade in der App relativ sind (das ist bereits korrekt konfiguriert)
+
+## Technologien
+
+- React 19
+- TypeScript
+- Bootstrap 5
+- Framer Motion
+- React Router DOM
+- React Helmet
