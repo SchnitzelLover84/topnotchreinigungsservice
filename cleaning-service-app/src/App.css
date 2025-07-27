@@ -82,11 +82,32 @@ footer .text-secondary {
 .hero-section h1,
 .hero-section h2,
 .hero-section h3 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  color: white !important;
+  font-weight: 700 !important;
 }
 
 .hero-section p {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+/* Add background overlay for better contrast */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
 }
 
 /* Custom button styles */
@@ -116,6 +137,25 @@ footer .text-secondary {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-color: transparent;
   transform: translateY(-2px);
+}
+
+/* Improve button visibility in hero section */
+.hero-section .btn {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-weight: 600 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section .btn-outline-light {
+  border-width: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.hero-section .btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: white;
+  color: white;
 }
 
 /* Card styles */
