@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="bg-dark text-white">
+    <footer className="text-white">
       {/* Main Footer */}
       <div className="container py-5">
         <div className="row g-4">

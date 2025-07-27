@@ -70,7 +70,7 @@ const Home: React.FC = () => {
                 <h1 className="display-4 fw-bold text-white mb-4">
                   Professionelle Reinigung für Ihr Zuhause
                 </h1>
-                <p className="lead text-white-50 mb-5">
+                <p className="lead text-white mb-5 fw-semibold">
                   Entdecken Sie unseren erstklassigen Reinigungsservice mit
                   modernster Technologie und umweltfreundlichen Produkten. Wir
                   machen Ihr Zuhause zum Wohlfühlort.
@@ -100,8 +100,8 @@ const Home: React.FC = () => {
               >
                 <div className="hero-image-placeholder bg-white bg-opacity-10 rounded-3 p-5">
                   <Sparkles size={120} className="text-white mb-3" />
-                  <h3 className="text-white">TopNotch Qualität</h3>
-                  <p className="text-white-50">
+                  <h3 className="text-white fw-bold">TopNotch Qualität</h3>
+                  <p className="text-white fw-semibold">
                     Ihr Partner für professionelle Reinigung
                   </p>
                 </div>
