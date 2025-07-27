@@ -134,19 +134,19 @@ const About: React.FC = () => {
                 viewport={{ once: true }}
               >
                 <h2 className="display-5 fw-bold mb-4">Unsere Geschichte</h2>
-                <p className="lead text-muted mb-4">
+                <p className="lead mb-4">
                   TopNotch Reinigungsservice wurde 2019 mit einer klaren Vision
                   gegründet: Professionelle Reinigung sollte zugänglich,
                   zuverlässig und nachhaltig sein.
                 </p>
-                <p className="text-muted mb-4">
+                <p className="mb-4">
                   Was als kleines Familienunternehmen begann, ist heute ein
                   etablierter Reinigungsservice mit über 50 qualifizierten
                   Mitarbeitern und mehr als 500 zufriedenen Kunden. Wir sind
                   stolz darauf, dass wir unseren Kunden seit über 5 Jahren
                   erstklassige Reinigungsdienstleistungen anbieten können.
                 </p>
-                <p className="text-muted">
+                <p>
                   Unser Erfolg basiert auf drei Säulen: Qualität,
                   Zuverlässigkeit und Kundenservice. Wir glauben daran, dass
                   jedes Zuhause und jeder Arbeitsplatz ein Ort der Sauberkeit
@@ -164,8 +164,8 @@ const About: React.FC = () => {
               >
                 <div className="bg-primary bg-opacity-10 rounded-3 p-5">
                   <Sparkles size={120} className="text-primary mb-3" />
-                  <h3 className="text-primary">TopNotch Qualität</h3>
-                  <p className="text-muted">
+                  <h3 className="text-primary fw-bold">TopNotch Qualität</h3>
+                  <p className="fw-semibold">
                     Seit 2019 Ihr Partner für professionelle Reinigung
                   </p>
                 </div>
@@ -181,7 +181,7 @@ const About: React.FC = () => {
           <div className="row text-center mb-5">
             <div className="col-lg-8 mx-auto">
               <h2 className="display-5 fw-bold mb-3">Unsere Werte</h2>
-              <p className="lead text-muted">
+              <p className="lead">
                 Diese Grundsätze leiten unser tägliches Handeln und definieren,
                 wer wir sind.
               </p>
@@ -201,7 +201,7 @@ const About: React.FC = () => {
                   <div className="card-body text-center p-4">
                     <div className="mb-3">{value.icon}</div>
                     <h5 className="card-title fw-bold mb-3">{value.title}</h5>
-                    <p className="card-text text-muted">{value.description}</p>
+                    <p className="card-text">{value.description}</p>
                   </div>
                 </div>
               </motion.div>
@@ -216,7 +216,7 @@ const About: React.FC = () => {
           <div className="row text-center mb-5">
             <div className="col-lg-8 mx-auto">
               <h2 className="display-5 fw-bold mb-3">Unser Team</h2>
-              <p className="lead text-muted">
+              <p className="lead">
                 Hinter TopNotch steht ein erfahrenes Team von Profis, die sich
                 für Ihre Zufriedenheit einsetzen.
               </p>
@@ -242,8 +242,10 @@ const About: React.FC = () => {
                     <p className="text-primary fw-semibold mb-2">
                       {member.position}
                     </p>
-                    <p className="text-muted small mb-3">{member.experience}</p>
-                    <p className="text-muted">{member.description}</p>
+                    <p className="small mb-3 fw-semibold">
+                      {member.experience}
+                    </p>
+                    <p>{member.description}</p>
                   </div>
                 </div>
               </motion.div>
@@ -258,7 +260,7 @@ const About: React.FC = () => {
           <div className="row text-center mb-5">
             <div className="col-lg-8 mx-auto">
               <h2 className="display-5 fw-bold mb-3">Unsere Erfolge</h2>
-              <p className="lead text-muted">
+              <p className="lead">
                 Zahlen, die für sich sprechen - Ihr Vertrauen ist unser größter
                 Erfolg.
               </p>
@@ -279,7 +281,7 @@ const About: React.FC = () => {
                     {achievement.number}
                   </div>
                   <h5 className="fw-bold mb-2">{achievement.label}</h5>
-                  <p className="text-muted">{achievement.description}</p>
+                  <p className="fw-semibold">{achievement.description}</p>
                 </div>
               </motion.div>
             ))}
@@ -299,7 +301,7 @@ const About: React.FC = () => {
                       <div className="d-flex flex-column align-items-center">
                         <MapPin className="text-primary mb-3" size={32} />
                         <h6 className="fw-bold mb-2">Adresse</h6>
-                        <p className="text-muted mb-0">
+                        <p className="mb-0 fw-semibold">
                           Musterstraße 123
                           <br />
                           12345 Musterstadt
@@ -310,7 +312,7 @@ const About: React.FC = () => {
                       <div className="d-flex flex-column align-items-center">
                         <Phone className="text-primary mb-3" size={32} />
                         <h6 className="fw-bold mb-2">Telefon</h6>
-                        <p className="text-muted mb-0">
+                        <p className="mb-0 fw-semibold">
                           <a
                             href="tel:+49123456789"
                             className="text-decoration-none"
@@ -324,7 +326,7 @@ const About: React.FC = () => {
                       <div className="d-flex flex-column align-items-center">
                         <Mail className="text-primary mb-3" size={32} />
                         <h6 className="fw-bold mb-2">E-Mail</h6>
-                        <p className="text-muted mb-0">
+                        <p className="mb-0 fw-semibold">
                           <a
                             href="mailto:info@topnotch-reinigungsservice.de"
                             className="text-decoration-none"
