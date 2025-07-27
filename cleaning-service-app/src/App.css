@@ -94,9 +94,10 @@ body {
   transition: color 0.3s ease;
 }
 
-/* Custom spacing for fixed navbar */
+/* Custom spacing for navbar */
 main {
-  padding-top: 76px;
+  padding-top: 0;
+  min-height: 100vh;
 }
 
 /* Animation classes */

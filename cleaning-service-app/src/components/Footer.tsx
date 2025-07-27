@@ -46,9 +46,9 @@ const Footer: React.FC = () => {
             <div className="d-flex align-items-center mb-3">
               <Sparkles className="text-primary me-2" size={24} />
               <span className="fw-bold fs-4">TopNotch</span>
-              <span className="text-muted ms-1">Reinigungsservice</span>
+              <span className="text-white ms-1">Reinigungsservice</span>
             </div>
-            <p className="text-muted mb-4">
+            <p className="text-white mb-4">
               Ihr zuverlässiger Partner für professionelle Reinigung. Wir bieten
               maßgeschneiderte Reinigungslösungen mit modernster Technologie und
               umweltfreundlichen Produkten.
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
                 <li key={index} className="mb-2">
                   <Link
                     to={link.path}
-                    className="text-muted text-decoration-none hover-text-white"
+                    className="text-white text-decoration-none hover-text-white"
                   >
                     {link.label}
                   </Link>
@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
                 <li key={index} className="mb-2">
                   <Link
                     to={service.path}
-                    className="text-muted text-decoration-none hover-text-white"
+                    className="text-white text-decoration-none hover-text-white"
                   >
                     {service.label}
                   </Link>
@@ -107,7 +107,7 @@ const Footer: React.FC = () => {
             <div className="mb-3">
               <div className="d-flex align-items-start mb-2">
                 <MapPin className="text-primary me-2 mt-1" size={16} />
-                <span className="text-muted">
+                <span className="text-white">
                   Musterstraße 123
                   <br />
                   12345 Musterstadt
@@ -119,7 +119,7 @@ const Footer: React.FC = () => {
                 <Phone className="text-primary me-2" size={16} />
                 <a
                   href="tel:+49123456789"
-                  className="text-muted text-decoration-none hover-text-white"
+                  className="text-white text-decoration-none hover-text-white"
                 >
                   +49 123 456789
                 </a>
@@ -130,7 +130,7 @@ const Footer: React.FC = () => {
                 <Mail className="text-primary me-2" size={16} />
                 <a
                   href="mailto:info@topnotch-reinigungsservice.de"
-                  className="text-muted text-decoration-none hover-text-white"
+                  className="text-white text-decoration-none hover-text-white"
                 >
                   info@topnotch-reinigungsservice.de
                 </a>
@@ -139,7 +139,7 @@ const Footer: React.FC = () => {
             <div>
               <div className="d-flex align-items-center">
                 <Clock className="text-primary me-2" size={16} />
-                <span className="text-muted">Mo-Fr: 8:00-18:00 Uhr</span>
+                <span className="text-white">Mo-Fr: 8:00-18:00 Uhr</span>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ const Footer: React.FC = () => {
         <div className="container py-3">
           <div className="row align-items-center">
             <div className="col-md-6">
-              <p className="text-muted mb-0 small">
+              <p className="text-white mb-0 small">
                 © {currentYear} TopNotch Reinigungsservice. Alle Rechte
                 vorbehalten.
               </p>
@@ -160,19 +160,19 @@ const Footer: React.FC = () => {
               <div className="d-flex gap-3 justify-content-md-end">
                 <Link
                   to="/privacy"
-                  className="text-muted text-decoration-none small hover-text-white"
+                  className="text-white text-decoration-none small hover-text-white"
                 >
                   Datenschutz
                 </Link>
                 <Link
                   to="/imprint"
-                  className="text-muted text-decoration-none small hover-text-white"
+                  className="text-white text-decoration-none small hover-text-white"
                 >
                   Impressum
                 </Link>
                 <Link
                   to="/terms"
-                  className="text-muted text-decoration-none small hover-text-white"
+                  className="text-white text-decoration-none small hover-text-white"
                 >
                   AGB
                 </Link>

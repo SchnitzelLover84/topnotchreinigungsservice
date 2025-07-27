@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <Sparkles className="text-primary me-2" size={24} />
